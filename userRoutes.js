@@ -1,5 +1,5 @@
 const express=require("express")
-const { userModel } = require("../Usermodel")
+const { userModel } = require("../ketan_bhatia_fw22_0035/unit-6/sprint-4/evaluation/Backend/Usermodel")
 const userRouter=express.Router()
 
 userRouter.post("/register",async (req,res)=>{

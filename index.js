@@ -1,6 +1,6 @@
 const express=require("express")
 const {connection}=require("./db")
-const {userRouter}=require("./Routes/userRoutes")
+const {userRouter}=require("./userRoutes")
 require("dotenv").config()
 const app=express()
 
